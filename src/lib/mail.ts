@@ -1,5 +1,6 @@
 import nodemailer from 'nodemailer';
 
+
 export async function getMailClient(){
 
   const transporter = nodemailer.createTransport({
